@@ -1,0 +1,2 @@
+test = 'abc'
+print (test)

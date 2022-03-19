@@ -1,0 +1,6 @@
+a = int(input())
+b = input()
+x = chr(a)
+y = ord(b)
+print(x)
+print(y)
