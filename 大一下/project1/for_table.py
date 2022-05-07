@@ -9,18 +9,21 @@ def change_color(a):
 
 n,m = map(int,input().split())
 o = input()
-a = '╔'
-b = '║'
+
 c = '╠'
 d = '╚'
 l = list()
 for i in range(n):
+    if i == 0:
+        a = '╔'
     a = a + '═'*3
     if i < n-1:
         a = a + '╦'
     elif i == n-1:
         a = a + '╗'
 for i in range(n):
+    if i == 0:
+        b = '║'
     b = b + change_color(o)
     b = b + ' ║'
 for i in range(n):
