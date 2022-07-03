@@ -60,7 +60,7 @@ void insert(int target,int data){
 }
 
 void search(int target){
-    if(searchnode(target))) != NULL){
+    if(searchnode(target) != NULL){
         printf("FOUND\n");
     }
     else{

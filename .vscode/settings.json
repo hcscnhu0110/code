@@ -3,5 +3,6 @@
     "files.associations": {
         "iosfwd": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "python.terminal.activateEnvironment": false
 }
